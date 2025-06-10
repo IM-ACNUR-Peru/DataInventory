@@ -36,8 +36,8 @@ ui <- page_fluid(
     padding: 20px 0;
     text-align: center;
   ",
-    tags$h2("Data Inventory ACNUR Perú", style = "color: white; margin: 0;"),
-    tags$h4(fecha, style = "color: white;")
+    tags$h2("Data Inventory", style = "color: white; margin: 0;"),
+    tags$h4("ACNUR Perú", style = "color: white;")
   ),
 #  tags$h2("Data Inventory ACNUR Perú", style = "color: #0072BC;"),
 #  tags$h4(fecha, style = "color: #338EC9;"),
