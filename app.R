@@ -27,8 +27,20 @@ ui <- page_fluid(
     "))
   ),
 
-  tags$h2("Data Inventory ACNUR Perú", style = "color: #0072BC;"),
-  tags$h4(fecha, style = "color: #338EC9;"),
+  style = "background-color: #CCE3F2; padding: 20px; text-align: center;",
+
+  tags$div(
+    style = "
+    width: 100%;
+    background-color: #0072BC;
+    padding: 20px 0;
+    text-align: center;
+  ",
+    tags$h2("Data Inventory ACNUR Perú", style = "color: white; margin: 0;"),
+    tags$h4(fecha, style = "color: white;")
+  ),
+#  tags$h2("Data Inventory ACNUR Perú", style = "color: #0072BC;"),
+#  tags$h4(fecha, style = "color: #338EC9;"),
   br(),
   dataTableOutput("table")
 )
