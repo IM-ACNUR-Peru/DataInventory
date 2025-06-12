@@ -4,10 +4,13 @@ library(shiny)
 library(bslib)
 library(DT)
 library(dplyr)
+library(stringr)
 
 df <- read.csv("https://github.com/IM-ACNUR-Peru/DataInventory/raw/refs/heads/main/DataInventory.csv", fileEncoding="latin1") |>
 #df <- read.csv("DataInventory.csv", fileEncoding="latin1") |>
  select(`Área.Temática`:Comentario) |>
+  mutate(Valor = str_remove_all(Valor, ",")) |>
+  mutate(Valor = as.numeric(Valor)) |>
   mutate(Valor = if_else(Valor <= 1, paste0(Valor * 100, "%"), format(round(Valor, 0), big.mark=",")))
 
 fecha <- Sys.Date()
