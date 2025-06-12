@@ -3,11 +3,12 @@ library(utils)
 library(shiny)
 library(bslib)
 library(DT)
-library(palmerpenguins)
 library(dplyr)
 
 df <- read.csv("https://github.com/IM-ACNUR-Peru/DataInventory/raw/refs/heads/main/DataInventory.csv", fileEncoding="latin1") |>
-  select(`Área.Temática`:Comentario)
+#df <- read.csv("DataInventory.csv", fileEncoding="latin1") |>
+ select(`Área.Temática`:Comentario) |>
+  mutate(Valor = if_else(Valor <= 1, paste0(Valor * 100, "%"), format(round(Valor, 0), big.mark=",")))
 
 fecha <- Sys.Date()
 
@@ -66,13 +67,15 @@ server <- function(input, output) {
             title = 'Data Inventory - ACNUR Perú',
             customize = JS("
               function(doc) {
+                doc.defaultStyle.fontSize = 8;
+                doc.styles.tableHeader.fontSize = 9;
                 var now = new Date();
                 var dateStr = now.toLocaleDateString();
                 doc.content.push({
                   text: 'Creado el: ' + dateStr,
                   margin: [0, 30, 0, 0],
                   alignment: 'center',
-                  fontSize: 10
+                  fontSize: 8
                 });
               }
             ")
