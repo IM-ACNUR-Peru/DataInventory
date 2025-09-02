@@ -7,8 +7,8 @@ library(dplyr)
 library(stringr)
 library(shinyWidgets)
 
-#df <- read.csv("https://github.com/IM-ACNUR-Peru/DataInventory/raw/refs/heads/main/DataInventory.csv", fileEncoding="latin1") |>
-df <- read.csv("DataInventory.csv", fileEncoding="latin1") |>
+df <- read.csv("https://github.com/IM-ACNUR-Peru/DataInventory/raw/refs/heads/main/DataInventory.csv", fileEncoding="latin1") |>
+#df <- read.csv("DataInventory.csv", fileEncoding="latin1") |>
  select(`Área.Temática`:Status) |>
   mutate(Valor = str_remove_all(Valor, ",")) |>
   mutate(Valor = as.numeric(Valor)) |>
