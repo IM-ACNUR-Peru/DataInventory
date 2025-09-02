@@ -1,47 +1,47 @@
-Área Temática,Indicador,Valor,Fecha,Visibilidad,Tipo de fuente,Fuente,Comentario
-Documentación,# de personas en situación migratoria regular,391938,31/05/2025,Bajo consulta (oficio),Registro,Migraciones,
-Documentación,# de personas en situación migratoria regular (en proceso),158636,31/05/2025,Bajo consulta (oficio),Registro,Migraciones,
-Documentación,# de personas en situación migratoria irregular,701879,31/05/2025,Bajo consulta (oficio),Registro,Migraciones,
-Documentación,# de personas venezolanas en Perú (SNM/R4V),1662889,Dec-23,Público,Registro,Migraciones,
-Documentación,# de personas venezolanas en Perú (SNM/R4V),1642520,31/05/2025,Bajo consulta (oficio),Registro,Migraciones,
-Documentación,# de personas registradas con la Superintendencia Nacional de Migraciones,1252453,31/05/2025,Bajo consulta (oficio),Registro,Migraciones,
-Documentación,# de solicitantes de la condición de refugiado,"539,957",30/06/2024,Público,Registro,CEPR,"Para más información, consultar: https://www.unhcr.org/refugee-statistics/download/"
-Documentación,# de refugiados reconocidos,"6,742",30/06/2024,Público,Registro,CEPR,"Para más información, consultar: https://www.unhcr.org/refugee-statistics/download/"
-Documentación,# de solicitantes de la condición de refugiado de nacionalidad venezolana,"4,942",30/06/2024,Público,Registro,CEPR,"Para más información, consultar: https://www.unhcr.org/refugee-statistics/download/"
-Documentación,# de refugiados reconocidos de nacionalidad venezolana,"522,732",30/06/2024,Público,Registro,CEPR,"Para más información, consultar: https://www.unhcr.org/refugee-statistics/download/"
-Documentación,% de personas en situación migratoria irregular,0.353,2022,Público,Encuesta,ENPOVE 2022,Personas que reportaron no contar con un permiso migratorio.
-Documentación,% de personas en situación migratoria irregular,0.17,2024,Datos preliminares,Encuesta,ENAHO 2024,Datos preliminares.  Personas que reportaron no contar con un permiso migratorio vigente.
-Documentación,% de personas con documentos de identidad vigentes,0.751,2024,Datos preliminares,Encuesta,ENAHO 2024,Datos preliminares. 
-Documentación,% de personas con documentos de identidad vigentes,0.899,2022,Público,Encuesta,ENPOVE 2022,
-Documentación,% de personas sin ningún documento de identididad,0.051,2022,Público,Encuesta,ENPOVE 2022,
-Documentación,% de personas sin ningún documento de identididad,0.031,2024,Datos preliminares,Encuesta,ENAHO 2024,Datos preliminares. 
-Empleo,% de personas económicamente activas (PEA),0.8,2024,Datos preliminares,Encuesta,ENAHO 2024,Datos preliminares. Porcentaje de la Población en Edad de Trabajar (PET).
-Empleo,% de personas económicamente activas (PEA),0.82,2022,Público,Encuesta,ENPOVE 2022,Porcentaje de la Población en Edad de Trabajar (PET).
-Empleo,% de personas en edad de trabajar,0.729,2022,Público,Encuesta,ENPOVE 2022,
-Empleo,% de personas en edad de trabajar,0.795,2024,Datos preliminares,Encuesta,ENAHO 2024,Datos preliminares. 
-Empleo,% de personas con contrato laboral (formal),0.23,2024,Datos preliminares,Encuesta,ENAHO 2024,Datos preliminares. 
-Empleo,% de personas con contrato laboral (formal),0.192,2022,Público,Encuesta,ENPOVE 2022,
-Empleo,Tasa de desempleo en la población venezolana,0.021,2022,Público,Encuesta,ENPOVE 2022,
-Integración,% de personas que se han sentido discriminadas en Perú,0.296,2022,Público,Encuesta,ENPOVE 2022,
-Integración,% de personas que se han sentido discriminadas en Perú,0.239,2024,Datos preliminares,Encuesta,ENAHO 2024,Datos preliminares. 
-Población,% de hogares con jefatura femenina,0.343,2024,Datos preliminares,Encuesta,ENAHO 2024,Datos preliminares. Se considera a los hogares cuyo jefa del hogar es mujer
-Población,% de mujeres en la población venezolana,0.52,2024,Datos preliminares,Encuesta,ENAHO 2024,Datos preliminares. 
-Población,# de otras personas en necesidad de protección internacional,"1,135,215",30/06/2024,Público,Registro,CEPR,"Para más información, consultar: https://www.unhcr.org/refugee-statistics/download/"
-Retorno,% de personas que tienen intención de quedarse en Perú,0.753,2022,Público,Encuesta,ENPOVE 2022,
-Retorno,% de personas que tienen temor ante la posibilidad de regresar a Venezuela según criterios de Cartagena,0.33,2024,Datos preliminares,Encuesta,ENAHO 2024,"Datos preliminares.  Personas que reportaron temor por seguridad física, violencia generalizada, persecución y/o reclutamiento forzado."
-Retorno,% de personas que tienen temor ante la posibilidad de regresar a Venezuela por cualquier motivo,0.33,2024,Datos preliminares,Encuesta,ENAHO 2024,Datos preliminares.  Personas que reportaron temor por cualquier motivo.
-Retorno,% de personas que tienen intención de quedarse en Perú,0.929,2024,Datos preliminares,Encuesta,ENAHO 2024,Datos preliminares. 
-Salud,% de personas con problemas de salud crónicos,0.114,2024,Datos preliminares,Encuesta,ENAHO 2024,Datos preliminares. Problemas de salud crónico como enfermedades o malestares.
-Salud,% de personas con problemas de salud crónicos,0.136,2022,Público,Encuesta,ENPOVE 2022,
-Violencia Contra las Mujeres,% de personas que se sienten poco seguras o muy inseguras caminando solas en su zonas de noche,0.555,2024,Datos preliminares,Encuesta,ENAHO 2024,Datos preliminares. 
-Violencia Contra las Mujeres,% de mujeres que se sienten poco seguras o muy inseguras caminando solas en su zonas de noche,0.596,2024,Datos preliminares,Encuesta,ENAHO 2024,Datos preliminares. 
-Violencia Contra las Mujeres,% de personas que se enfrentaron con alguna situación de acoso sexual,0.165,2024,Datos preliminares,Encuesta,ENAHO 2024,"Datos preliminares. Personas que reportaron haberse encontrado con alguna situación de acoso durante los últimos 12 meses, incl. propuestas sexuales, mensajes no deseados y/o explícitos, comentarios o gestos sexuales, exhibicionismo indecente y/o regalos no deseados."
-Violencia Contra las Mujeres,% de personas que conocen de casos de violencia contra mujeres venezolanas,0.103,2024,Datos preliminares,Encuesta,ENAHO 2024,"Datos preliminares. Tipos de violencia incluidas: Física, psicológica, económica y/o sexual."
-Violencia Contra las Mujeres,% de personas que conocen de casos de violencia física contra mujeres venezolanas,0.073,2024,Datos preliminares,Encuesta,ENAHO 2024,Datos preliminares. 
-Violencia Contra las Mujeres,% de personas que conocen de casos de violencia psicológica contra mujeres venezolanas,0.066,2024,Datos preliminares,Encuesta,ENAHO 2024,Datos preliminares. 
-Violencia Contra las Mujeres,% de personas que conocen de casos de violencia sexual contra mujeres venezolanas,0.016,2024,Datos preliminares,Encuesta,ENAHO 2024,Datos preliminares. 
-Violencia Contra las Mujeres,% de personas que conocen de casos de violencia física contra personas venezolanas,0.153,2022,Público,Encuesta,ENPOVE 2022,
-Violencia Contra las Mujeres,% de personas que conocen de casos de violencia psicológica contra personas venezolanas,0.161,2022,Público,Encuesta,ENPOVE 2022,
-Violencia Contra las Mujeres,% de personas que conocen de casos de violencia sexual contra personas venezolanas,0.028,2022,Público,Encuesta,ENPOVE 2022,
-Vivienda,% de hogares con acceso a red pública de agua,0.767,2024,Datos preliminares,Encuesta,ENAHO 2024,Datos preliminares. Hogares que tienen acceso a servicio de agua a través de red pública dentro de la vivienda
-Vivienda,% de hogares con saneamiento básico,0.766,2024,Datos preliminares,Encuesta,ENAHO 2024,Datos preliminares. Hogares cuyos servicios higiénicos tienen conexión a desagues dentro de la vivienda
+Área Temática,Indicador,Valor,Fecha,Visibilidad,Tipo de fuente,Fuente,Comentario,Status
+Documentación,# de solicitantes de la condición de refugiado,"539,957",31/12/2024,Público,Registro,CEPR,https://www.unhcr.org/refugee-statistics/download/,Key data
+Documentación,# de refugiados reconocidos,"6,742",31/12/2024,Público,Registro,CEPR,https://www.unhcr.org/refugee-statistics/download/,Key data
+Documentación,# de refugiados reconocidos de nacionalidad venezolana,"4,942",31/12/2024,Público,Registro,CEPR,https://www.unhcr.org/refugee-statistics/download/,Key data
+Documentación,# de solicitantes de la condición de refugiado de nacionalidad venezolana,"522,732",31/12/2024,Público,Registro,CEPR,https://www.unhcr.org/refugee-statistics/download/,Key data
+Documentación,% de personas en situación migratoria irregular,0.17,2024,Datos preliminares,Encuesta,ENAHO 2024,Datos preliminares.  Personas que reportaron no contar con un permiso migratorio vigente.,Otros datos recientes
+Documentación,% de personas con documentos de identidad vigentes,0.751,2024,Datos preliminares,Encuesta,ENAHO 2024,Datos preliminares. ,Otros datos recientes
+Documentación,% de personas sin ningún documento de identididad,0.031,2024,Datos preliminares,Encuesta,ENAHO 2024,Datos preliminares. ,Otros datos recientes
+Empleo,% de personas económicamente activas (PEA),0.8,2024,Datos preliminares,Encuesta,ENAHO 2024,Datos preliminares. Porcentaje de la Población en Edad de Trabajar (PET).,Otros datos recientes
+Empleo,% de personas en edad de trabajar,0.795,2024,Datos preliminares,Encuesta,ENAHO 2024,Datos preliminares. ,Otros datos recientes
+Empleo,% de personas con contrato laboral (formal),0.23,2024,Datos preliminares,Encuesta,ENAHO 2024,Datos preliminares. ,Otros datos recientes
+Integración,% de personas que se han sentido discriminadas en Perú,0.239,2024,Datos preliminares,Encuesta,ENAHO 2024,Datos preliminares. ,Otros datos recientes
+Población,% de hogares con jefatura femenina,0.343,2024,Datos preliminares,Encuesta,ENAHO 2024,Datos preliminares. Se considera a los hogares cuyo jefa del hogar es mujer,Otros datos recientes
+Población,% de mujeres en la población venezolana,0.52,2024,Datos preliminares,Encuesta,ENAHO 2024,Datos preliminares. ,Otros datos recientes
+Retorno,% de personas que tienen temor ante la posibilidad de regresar a Venezuela según criterios de Cartagena,0.33,2024,Datos preliminares,Encuesta,ENAHO 2024,"Datos preliminares.  Personas que reportaron temor por seguridad física, violencia generalizada, persecución y/o reclutamiento forzado.",Otros datos recientes
+Retorno,% de personas que tienen temor ante la posibilidad de regresar a Venezuela por cualquier motivo,0.33,2024,Datos preliminares,Encuesta,ENAHO 2024,Datos preliminares.  Personas que reportaron temor por cualquier motivo.,Otros datos recientes
+Retorno,% de personas que tienen intención de quedarse en Perú,0.929,2024,Datos preliminares,Encuesta,ENAHO 2024,Datos preliminares. ,Otros datos recientes
+Salud,% de personas con problemas de salud crónicos,0.114,2024,Datos preliminares,Encuesta,ENAHO 2024,Datos preliminares. Problemas de salud crónico como enfermedades o malestares.,Otros datos recientes
+Violencia Contra las Mujeres,% de personas que se sienten poco seguras o muy inseguras caminando solas en su zonas de noche,0.555,2024,Datos preliminares,Encuesta,ENAHO 2024,Datos preliminares. ,Otros datos recientes
+Violencia Contra las Mujeres,% de mujeres que se sienten poco seguras o muy inseguras caminando solas en su zonas de noche,0.596,2024,Datos preliminares,Encuesta,ENAHO 2024,Datos preliminares. ,Otros datos recientes
+Violencia Contra las Mujeres,% de personas que se enfrentaron con alguna situación de acoso sexual,0.165,2024,Datos preliminares,Encuesta,ENAHO 2024,"Datos preliminares. Personas que reportaron haberse encontrado con alguna situación de acoso durante los últimos 12 meses, incl. propuestas sexuales, mensajes no deseados y/o explícitos, comentarios o gestos sexuales, exhibicionismo indecente y/o regalos no deseados.",Otros datos recientes
+Violencia Contra las Mujeres,% de personas que conocen de casos de violencia contra mujeres venezolanas,0.103,2024,Datos preliminares,Encuesta,ENAHO 2024,"Datos preliminares. Tipos de violencia incluidas: Física, psicológica, económica y/o sexual.",Otros datos recientes
+Violencia Contra las Mujeres,% de personas que conocen de casos de violencia física contra mujeres venezolanas,0.073,2024,Datos preliminares,Encuesta,ENAHO 2024,Datos preliminares. ,Otros datos recientes
+Violencia Contra las Mujeres,% de personas que conocen de casos de violencia psicológica contra mujeres venezolanas,0.066,2024,Datos preliminares,Encuesta,ENAHO 2024,Datos preliminares. ,Otros datos recientes
+Violencia Contra las Mujeres,% de personas que conocen de casos de violencia sexual contra mujeres venezolanas,0.016,2024,Datos preliminares,Encuesta,ENAHO 2024,Datos preliminares. ,Otros datos recientes
+Vivienda,% de hogares con acceso a red pública de agua,0.767,2024,Datos preliminares,Encuesta,ENAHO 2024,Datos preliminares. Hogares que tienen acceso a servicio de agua a través de red pública dentro de la vivienda,Otros datos recientes
+Vivienda,% de hogares con saneamiento básico,0.766,2024,Datos preliminares,Encuesta,ENAHO 2024,Datos preliminares. Hogares cuyos servicios higiénicos tienen conexión a desagues dentro de la vivienda,Otros datos recientes
+Documentación,% de personas en situación migratoria irregular,0.353,2022,Público,Encuesta,ENPOVE 2022,Personas que reportaron no contar con un permiso migratorio.,Datos históricos
+Documentación,% de personas con documentos de identidad vigentes,0.899,2022,Público,Encuesta,ENPOVE 2022,,Datos históricos
+Documentación,% de personas sin ningún documento de identididad,0.051,2022,Público,Encuesta,ENPOVE 2022,,Datos históricos
+Empleo,% de personas económicamente activas (PEA),0.82,2022,Público,Encuesta,ENPOVE 2022,Porcentaje de la Población en Edad de Trabajar (PET).,Datos históricos
+Empleo,% de personas en edad de trabajar,0.729,2022,Público,Encuesta,ENPOVE 2022,,Datos históricos
+Empleo,% de personas con contrato laboral (formal),0.192,2022,Público,Encuesta,ENPOVE 2022,,Datos históricos
+Empleo,Tasa de desempleo en la población venezolana,0.021,2022,Público,Encuesta,ENPOVE 2022,,Datos históricos
+Integración,% de personas que se han sentido discriminadas en Perú,0.296,2022,Público,Encuesta,ENPOVE 2022,,Datos históricos
+Retorno,% de personas que tienen intención de quedarse en Perú,0.753,2022,Público,Encuesta,ENPOVE 2022,,Datos históricos
+Salud,% de personas con problemas de salud crónicos,0.136,2022,Público,Encuesta,ENPOVE 2022,,Datos históricos
+Violencia Contra las Mujeres,% de personas que conocen de casos de violencia física contra personas venezolanas,0.153,2022,Público,Encuesta,ENPOVE 2022,,Datos históricos
+Violencia Contra las Mujeres,% de personas que conocen de casos de violencia psicológica contra personas venezolanas,0.161,2022,Público,Encuesta,ENPOVE 2022,,Datos históricos
+Violencia Contra las Mujeres,% de personas que conocen de casos de violencia sexual contra personas venezolanas,0.028,2022,Público,Encuesta,ENPOVE 2022,,Datos históricos
+Documentación,# de personas venezolanas en situación migratoria regular,386174,15/08/2025,Bajo consulta (oficio),Registro,Migraciones,"Personas con cualquier tipo de calidad migratoria clasificadas como ""en situación regular"" por Migraciones.",Key data
+Documentación,# de personas venezolanas en situación migratoria regular (en proceso),157442,15/08/2025,Bajo consulta (oficio),Registro,Migraciones,"Personas con cualquier tipo de calidad migratoria clasificadas como ""en proceso"" por Migraciones.",Key data
+Documentación,# de personas venezolanas en situación migratoria irregular,707134,15/08/2025,Bajo consulta (oficio),Registro,Migraciones,"Personas clasificadas como ""en situación irregular"" por Migraciones (se refiere solo a las personas en el sistema de registro de Migraciones).",Key data
+Documentación,# de personas venezolanas en Perú (SNM/R4V),1662889,Dec-23,Público,Registro,Migraciones,Estimación de población venezolana total en Perú (última publicada),Key data
+Documentación,# de personas venezolanas en Perú (SNM/R4V),1640709,15/08/2025,Bajo consulta (oficio),Registro,Migraciones,Estimación de población venezolana total en Perú (datos más reciente),Otros datos recientes
+Documentación,# de personas venezolanas registradas con la Superintendencia Nacional de Migraciones,1250750,15/08/2025,Bajo consulta (oficio),Registro,Migraciones,Total de personas venezolanas en el sistema de registro de Migraciones.,Key data
+Población,# de  personas en necesidad de protección internacional,"1,135,215",30/06/2024,Público,Registro,,"Para más información, consultar: https://www.unhcr.org/refugee-statistics/download/",Otros datos recientes

@@ -5,10 +5,11 @@ library(bslib)
 library(DT)
 library(dplyr)
 library(stringr)
+library(shinyWidgets)
 
-df <- read.csv("https://github.com/IM-ACNUR-Peru/DataInventory/raw/refs/heads/main/DataInventory.csv", fileEncoding="latin1") |>
-#df <- read.csv("DataInventory.csv", fileEncoding="latin1") |>
- select(`Área.Temática`:Comentario) |>
+#df <- read.csv("https://github.com/IM-ACNUR-Peru/DataInventory/raw/refs/heads/main/DataInventory.csv", fileEncoding="latin1") |>
+df <- read.csv("DataInventory.csv", fileEncoding="latin1") |>
+ select(`Área.Temática`:Status) |>
   mutate(Valor = str_remove_all(Valor, ",")) |>
   mutate(Valor = as.numeric(Valor)) |>
   mutate(Valor = if_else(Valor <= 1, paste0(Valor * 100, "%"), format(round(Valor, 0), big.mark=",")))
@@ -28,6 +29,43 @@ ui <- page_fluid(
         font-weight: bold;
         color: #2C3E50;
       }
+
+/* Three-column layout: dropdown | buttons | search */
+      .filter-and-buttons-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+        min-height: 40px;
+      }
+
+      .filter-section {
+        flex: 0 0 auto;
+        min-width: 200px;
+      }
+
+      .buttons-section {
+        flex: 0 0 auto;
+        display: flex;
+        justify-content: center;
+      }
+
+      .search-section {
+        flex: 0 0 auto;
+        min-width: 200px;
+        display: flex;
+        justify-content: flex-end;
+      }
+
+      /* Ensure DataTable buttons container aligns properly */
+      .dataTables_wrapper .dt-buttons {
+        margin-bottom: 0.5em;
+      }
+
+      /* Hide the default DataTable search box */
+      .dataTables_wrapper .dataTables_filter {
+        display: none;
+      }
     "))
   ),
 
@@ -46,14 +84,75 @@ ui <- page_fluid(
 #  tags$h2("Data Inventory ACNUR Perú", style = "color: #0072BC;"),
 #  tags$h4(fecha, style = "color: #338EC9;"),
   br(),
-  dataTableOutput("table")
+
+
+# Combined container for filter and space for buttons
+  tags$div(
+    class = "filter-and-buttons-container",
+    tags$div(
+      class = "filter-section",
+      pickerInput(
+        inputId = "status_filter",
+        label = NULL,
+        choices = c("Key data", "Otros datos recientes", "Datos históricos"),
+        selected = "Key data",
+        multiple = TRUE,
+        options = list(
+          style = "btn-primary",
+          `selected-text-format` = "count > 2",
+          `actions-box` = TRUE
+        )
+      )
+    ),
+    # Placeholder div for DataTable buttons (center)
+    tags$div(class = "buttons-section", id = "buttons-placeholder"),
+    # Custom search box (right)
+    tags$div(
+      class = "search-section",
+      tags$input(
+        type = "text",
+        id = "custom-search",
+        placeholder = "Search...",
+        class = "form-control",
+        style = "width: 200px;"
+      )
+    )
+  ),
+
+
+  DTOutput("table"),
+
+  # JavaScript to move DataTable buttons and connect custom search
+  tags$script(HTML("
+    $(document).on('init.dt', function(e, settings) {
+      // Move the DataTable buttons to our custom container
+      setTimeout(function() {
+        var buttonsContainer = $('.dt-buttons').detach();
+        $('#buttons-placeholder').append(buttonsContainer);
+
+        // Connect custom search box to DataTable
+        $('#custom-search').on('keyup', function() {
+          $('#table').DataTable().search(this.value).draw();
+        });
+
+        // Clean up the original buttons wrapper if it's empty
+        $('.dataTables_wrapper .dataTables_length').parent().find('.dt-buttons').parent().remove();
+      }, 100);
+    });
+    "))
+
 )
 
 
 server <- function(input, output) {
   output$table <- renderDT({
+
+    dt_filtered <- df  |>
+      filter(Status %in% input$status_filter)  |>
+      select(-Status)  # Remove Status column from display
+
     datatable(
-      df,
+      dt_filtered,
       extensions = 'Buttons',
       options = list(
         dom = 'Bfrtip',
